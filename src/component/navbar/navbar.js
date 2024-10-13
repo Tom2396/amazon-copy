@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarBanner from './navbarBanner/navbarBanner'
+
 import NavbarBelt from './navbarBelt/navbarBelt'
 
 const Navbar = () => {
