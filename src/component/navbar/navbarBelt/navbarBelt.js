@@ -1,5 +1,5 @@
-import React from 'react'
-import './navbarBelt.css'
+import React from 'react';
+import './navbarBelt.css';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import SearchIcon from '@mui/icons-material/Search';
@@ -28,8 +28,6 @@ const NavbarBelt = () => {
 
       </div>
 
-
-
       <div className='navbarBeltSearchBox'>
 
         <div className='navbarBeltSearchDiv'>
@@ -49,42 +47,35 @@ const NavbarBelt = () => {
         </div>
       </div>
 
-
-
-
       <div className='rightSideNavbarBelt'>
 
           <div className='indianFlagCode'>
 
             <img src={require('../../../assets/flag.png')} className='indianFlag' alt='In'/>
-            <div className='indiaCodeNavbarBelt'>EN <ArrowDropDownOutlinedIcon fontSize={"medium"} className='indiaCodeNavbarBeltDrp'/></div>
+            <div className='indiaCodeNavbarBelt'>EN <ArrowDropDownOutlinedIcon sx={{fontSize:"16px"}} className='indiaCodeNavbarBeltDrp'/></div>
           
           </div>
 
           <div className='helloSignInNavbarBelt'>
-           
             <div className='helloTopNavbarBelt'>Hello, User</div>
             <div className='indiaCodeNavbarBelt'>Accounts & Lists</div>
-         
           </div>
 
           <div className='helloSignInNavbarBelt'>
-           
             <div className='helloTopNavbarBelt'>Returns</div>
             <div className='indiaCodeNavbarBelt'>& Orders</div>
-         
           </div>
 
-
-          <div className='helloSignInNavbarBelt'>
-           
-            <div className='cartItemNumberNavbarBelt'>0</div>
-            <div className='helloTopNavbarBelt'><ShoppingCartOutlinedIcon /> <span className='cartTitle'>Cart</span></div>
-         
+          <div className='cartSection'>
+            <div className='cartIconContainer'>
+              <ShoppingCartOutlinedIcon className='cartIcon' />
+              <span className='cartItemNumberNavbarBelt'>0</span>
+            </div>
+            <span className='cartTitle'>Cart</span>
           </div>
       </div>
     </div>
   )
 }
 
-export default NavbarBelt
+export default NavbarBelt;

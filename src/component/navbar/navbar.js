@@ -1,15 +1,16 @@
-import React from 'react'
-import NavbarBanner from './navbarBanner/navbarBanner'
-import NavbarBelt from './navbarBelt/navbarBelt'
+// Navbar.jsx
+import React from 'react';
+import NavbarBanner from './navbarBanner/navbarBanner';
+import NavbarBelt from './navbarBelt/navbarBelt';
+import './navbar.css'; 
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <NavbarBelt/>
+        <NavbarBelt />
         <NavbarBanner/>
     </div>
-    
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

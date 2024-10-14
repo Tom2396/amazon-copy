@@ -30,7 +30,7 @@ const NavbarBanner = () => {
       </div>
 
       <div className='navbarBannerOptionsRight'>
-        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Jupiter24/Phase2/J24_P2_SWM_ShopNow._CB544503925_.jpg" alt='amazonPrime Logo' className='imgRight' />
+        <img src="https://f.media-amazon.com/images/G/31/img19/SiddMiniTV/26MayHero/SWM_400x391._CB557661637_.jpg" alt='amazonPrime Logo' className='imgRight' />
       </div>
     </div>
 
