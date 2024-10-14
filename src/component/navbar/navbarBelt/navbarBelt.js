@@ -78,7 +78,7 @@ const NavbarBelt = () => {
 
           <div className='helloSignInNavbarBelt'>
            
-            <div className='cartItemNumberNavbarBelt'>2</div>
+            <div className='cartItemNumberNavbarBelt'>0</div>
             <div className='helloTopNavbarBelt'><ShoppingCartOutlinedIcon /> <span className='cartTitle'>Cart</span></div>
          
           </div>
