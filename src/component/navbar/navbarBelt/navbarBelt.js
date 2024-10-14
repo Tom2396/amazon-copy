@@ -37,13 +37,13 @@ const NavbarBelt = () => {
           <div className='navbarBeltSearchBoxAll'>
 
             <div className='navbarBeltSearchBoxAllText'>All</div>
-            <ArrowDropDownOutlinedIcon fontSize={"small"} />
+            <ArrowDropDownOutlinedIcon sx={{fontSize:"24px"}} />
           </div>
 
           <input type='text' className='navbarBeltInputSearchBox' placeholder='Search Amazon.in' />
 
           <div className='searchIconNavbarBelt'>
-            <SearchIcon fontSize={"medium"} className='searchIconNavbarBeltIcon'/>
+            <SearchIcon sx={{fontSize:"24px"}} className='searchIconNavbarBeltIcon'/>
           </div>
 
         </div>

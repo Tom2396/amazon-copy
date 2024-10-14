@@ -37,9 +37,13 @@
 .navbarBannerOptionsRight {
     display: flex;
     justify-content: center;
-    cursor: pointer;
-
     &:hover {
         border: 1px solid;
+        cursor: pointer;
     }
+}
+
+.imgRight{
+    align-items: center;
+    height: 37px;
 }
