@@ -33,6 +33,9 @@
     font-weight: 400;
 }
 
+.navbarBeltLocationImgIcon{
+    margin-top: 8px;
+}
 .navbarBeltLocation {
     display: flex;
     align-items: center;
@@ -62,6 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
 }
 
 .navbarBeltSearchDiv {
@@ -98,7 +102,8 @@
 .rightSideNavbarBelt {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    margin-left: 5px;
     padding-bottom: 8px;
 }
 

@@ -18,7 +18,7 @@ const NavbarBelt = () => {
 
         <div className='navbarBeltLocation'>
           <div className='navbarBeltLocationImg'>
-            <LocationOnOutlinedIcon className='navbarBeltLocationImgIcon' fontSize={"medium"} />
+            <LocationOnOutlinedIcon className='navbarBeltLocationImgIcon' sx={{fontSize:"24px"}} />
           </div>
           <div className='navbarBeltLocationPlace'>
             <div className='navbarBeltLocationTop'> Delivering to Kolkata 700088 </div>
@@ -41,7 +41,7 @@ const NavbarBelt = () => {
           <input type='text' className='navbarBeltInputSearchBox' placeholder='Search Amazon.in' />
 
           <div className='searchIconNavbarBelt'>
-            <SearchIcon sx={{fontSize:"24px"}} className='searchIconNavbarBeltIcon'/>
+            <SearchIcon sx={{fontSize:"24px",color:"black"}} className='searchIconNavbarBeltIcon'/>
           </div>
 
         </div>
