@@ -139,6 +139,12 @@
     bottom: -2px; 
 }
 
+/* Hello Section */
+.helloTopNavbarBelt{
+    font-size: 12px;
+    font-weight: 500;
+
+}
 /* Cart Section */
 .cartSection {
     display: flex;
