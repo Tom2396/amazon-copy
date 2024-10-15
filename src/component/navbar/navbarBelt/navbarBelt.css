@@ -21,6 +21,10 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    &:hover {
+        border: 1px solid;
+    }
 }
 
 .amazonLogoNavbar {
@@ -33,15 +37,22 @@
     font-weight: 400;
 }
 
-.navbarBeltLocationImgIcon{
-    margin-top: 8px;
-}
+
 .navbarBeltLocation {
     display: flex;
     align-items: center;
     margin-top: 8px;
     gap: 5px;
     cursor: pointer;
+
+    &:hover {
+        border: 1px solid;
+    }
+}
+
+.navbarBeltLocationImgIcon {
+    margin-top: 8px;
+
 }
 
 .navbarBeltLocationPlace {
@@ -86,96 +97,125 @@
     color: #999;
 }
 
+.navbarBeltSearchBoxAllText{
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .navbarBeltInputSearchBox {
     width: 100%;
     padding: 8px;
     border: none;
+    outline: none;
 }
 
 .searchIconNavbarBelt {
     background-color: #febd69;
     padding: 10px;
     cursor: pointer;
+    margin-right: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* Right Navigation - Language, User, Cart */
 .rightSideNavbarBelt {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 5px;
-    padding-bottom: 8px;
+    align-items: end;
+    justify-content: space-around; 
+    gap: 15px;
+    margin-bottom: 8px;
 }
 
 /* Flag and Language Dropdown */
 .indianFlagCode {
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    cursor: pointer;
+    align-items: center;
+    justify-content: center;
     gap: 4px;
-    position: relative; 
+    position: relative;
+
+    &:hover {
+        border: 1px solid;
+        cursor: pointer;
+    }
 }
 
+
 .indianFlag {
-    width: 20px; 
-    height: auto; 
+    width: 20px;
+    height: auto;
 }
 
 /* Language Code */
 .indiaCodeNavbarBelt {
     font-size: 14px;
     font-weight: 700;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
     position: relative;
 }
 
 /* Arrow Icon Positioning */
 .indiaCodeNavbarBeltDrp {
-    margin-left: 0px; 
-    font-size: 14px; 
-    position: relative; 
-    bottom: -2px; 
+    position: relative;
+    font-size: 14px;
+    bottom: -2px;
 }
 
 /* Hello Section */
-.helloTopNavbarBelt{
+
+.helloSignInNavbarBelt {
+    &:hover {
+        border: 1px solid;
+        cursor: pointer;
+    }
+}
+
+.helloTopNavbarBelt {
     font-size: 12px;
     font-weight: 500;
 
 }
+
+
 /* Cart Section */
 .cartSection {
     display: flex;
-    align-items: center; 
+    align-items: center;
+
+    &:hover {
+        border: 1px solid;
+        cursor: pointer;
+    }
 }
 
 .cartIconContainer {
     display: flex;
-    align-items: flex-end; 
-    position: relative; 
+    align-items: flex-end;
+    position: relative;
 }
 
 .cartIcon {
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .cartItemNumberNavbarBelt {
     position: absolute;
-    top: -10px; 
-    right: -10px; 
-    background-color: red; 
+    top: -10px;
+    right: -10px;
+    background-color: red;
     color: white;
-    border-radius: 50%; 
+    border-radius: 50%;
     padding: 2px 5px;
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 /* Cart Title */
 .cartTitle {
-    margin-left: 5px; 
-    font-size: 14px; 
+    margin-left: 5px;
+    font-size: 14px;
 }
 
 /* Responsive Styling */
@@ -190,22 +230,20 @@
         margin: 10px 0;
     }
 
-    .rightSideNavbarBelt {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
+  
 
     .indianFlag {
-        width: 16px; 
+        width: 16px;
     }
 
     .indiaCodeNavbarBelt {
-        font-size: 12px; 
+        font-size: 12px;
     }
 
-    .leftNavBelt,
-    .rightSideNavbarBelt {
-        width: 100%;
-        justify-content: space-between;
+    .leftNavBelt {
+        display: flex;
+        align-items: center;
     }
+
+   
 }

@@ -21,7 +21,7 @@ const NavbarBelt = () => {
             <LocationOnOutlinedIcon className='navbarBeltLocationImgIcon' sx={{fontSize:"24px"}} />
           </div>
           <div className='navbarBeltLocationPlace'>
-            <div className='navbarBeltLocationTop'> Delivering to Kolkata 700088 </div>
+            <div className='navbarBeltLocationTop'> Delivering to Chinsurah 712101 </div>
             <div className='navbarBeltLocationBottom'> Update Location </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ const NavbarBelt = () => {
           <div className='navbarBeltSearchBoxAll'>
 
             <div className='navbarBeltSearchBoxAllText'>All</div>
-            <ArrowDropDownOutlinedIcon sx={{fontSize:"24px"}} />
+            <ArrowDropDownOutlinedIcon sx={{fontSize:"20px"}} />
           </div>
 
           <input type='text' className='navbarBeltInputSearchBox' placeholder='Search Amazon.in' />
@@ -58,7 +58,8 @@ const NavbarBelt = () => {
 
           <div className='helloSignInNavbarBelt'>
             <div className='helloTopNavbarBelt'>Hello, User</div>
-            <div className='indiaCodeNavbarBelt'>Accounts & Lists</div>
+            <div className='indiaCodeNavbarBelt'>Accounts & Lists<ArrowDropDownOutlinedIcon sx={{ fontSize: "16px" }} className='indiaCodeNavbarBeltDrp' />
+            </div>
           </div>
 
           <div className='helloSignInNavbarBelt'>
