@@ -29,9 +29,7 @@ const HomeBanner = () => {
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Jupiter/P3/3A_PC_Hero_3000x1200-trimmer-2x._CB545100078_.jpg" alt="Amazon-Banner" className="homeBannerImg" />
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Jupiter24/Phase3/J24_P3A_GW_PC_EventHero_NTA_2x._CB545056695_.jpg" alt="Amazon-Banner" className="homeBannerImg" />
           <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/pcacc/jup3/399_3A_PC_Hero_3000x1200._CB545061107_.jpg" alt="Amazon-Banner" className="homeBannerImg" />
-          <div className='grayBackgroundHomeBanner'>
-
-          </div>
+        
         </div>
         <div className="right_img_button" id="slideButton" onClick={() => handleScroll(1)}>
           <i className="fa-solid fa-angle-right"></i>

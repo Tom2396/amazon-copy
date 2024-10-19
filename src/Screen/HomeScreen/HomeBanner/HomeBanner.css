@@ -1,12 +1,9 @@
 .homeBannerImg {
     height: 80vh;
     width: 100%;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(auto, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
-.grayBackgroundHomeBanner {
-    background-color: rgb(238, 235, 235);
-    height: 80vh;
-  }
+
 /* Main container styling */
 .main {
     width: 100%;
