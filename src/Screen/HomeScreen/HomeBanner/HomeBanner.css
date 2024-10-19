@@ -1,0 +1,141 @@
+.homeBannerImg {
+    height: 80vh;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.grayBackgroundHomeBanner {
+    background-color: rgb(238, 235, 235);
+    height: 80vh;
+  }
+/* Main container styling */
+.main {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgba(179, 177, 177, 0.203);
+    margin: 0 auto;
+}
+
+/* Main image container */
+.main .main-imgs {
+    width: 100%;
+    height: 20vw;
+    position: relative;
+    overflow: hidden;
+    /* Prevent overflow */
+}
+
+.main .main-img img {
+    flex-shrink: 0;
+    /* Prevent images from shrinking */
+    width: 100%;
+    /* Adjust width to be relative to the parent container */
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hide scrollbar for smooth scrolling */
+.main .main-img::-webkit-scrollbar {
+    display: none;
+}
+
+/* Image container */
+.main .main-imgs .main-img {
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+/* Blur background styling */
+.blur_img {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(239, 239, 239);
+    position: absolute;
+    top: 21vw;
+    z-index: -1;
+    box-shadow: 0px -20px 20px 20px rgb(239, 239, 239);
+}
+
+
+
+/* Slide button styling */
+#slideButton {
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    height: 8vw;
+    width: 3vw;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.75rem;
+    padding: 5px;
+    z-index: 1;
+    /* Ensure it appears above other elements */
+}
+
+/* Button hover and active styles */
+#slideButton:hover {
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+#slideButton:active {
+    background-color: #ffffff50;
+}
+
+/* Button positioning */
+.left_img_button {
+    left: 10px;
+    z-index: 1;
+    /* Make sure it's above other elements */
+}
+
+.right_img_button {
+    right: 10px;
+    z-index: 1;
+    /* Make sure it's above other elements */
+}
+
+.main .main-img {
+    scroll-snap-type: x mandatory;
+}
+
+.main .main-img img {
+    scroll-snap-align: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .main .main-imgs {
+        height: 30vw;
+        /* Increase height for smaller screens */
+    }
+
+    #slideButton {
+        height: 10vw;
+        width: 5vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .main .main-imgs {
+        height: 30vw;
+        /* Adjust for mobile */
+    }
+
+    #slideButton {
+        height: 12vw;
+        width: 6vw;
+        font-size: 1.25rem;
+    }
+
+    .blur_img {
+        top: 26vw;
+    }
+}
