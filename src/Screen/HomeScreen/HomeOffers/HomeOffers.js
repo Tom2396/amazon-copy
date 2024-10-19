@@ -13,7 +13,7 @@ const HomeOffers = () => {
             <div>
               <h2>Keep shopping for</h2>
               <div>
-                <a href="https://amazon-tom.netlify.app/">
+                <a href=" ">
                   <div>
                     <img src={require("../../../assets/box111.jpg")} alt="" />
                   </div>
@@ -23,7 +23,7 @@ const HomeOffers = () => {
                    
                   </div>
                 </a>
-                <a href="https://amazon-tom.netlify.app/">
+                <a href=" ">
                   <div>
                     <img src={require("../../../assets/box112.jpg")} alt="" />
                   </div>
@@ -34,7 +34,7 @@ const HomeOffers = () => {
                   </div>
                 </a>
               </div>
-              <a className="seeOffer" href="https://amazon-tom.netlify.app/">
+              <a className="seeOffer" href=" ">
                 view your browsing history
               </a>
             </div>
@@ -45,7 +45,7 @@ const HomeOffers = () => {
               <h2>Smart Phones that suit your budget</h2>
               <div>
                 <div>
-                  <a href="https://amazon-tom.netlify.app/">
+                  <a href=" ">
                     <div>
                       <img src={require("../../../assets/box121.jpg")} alt="" />
                     </div>
@@ -55,7 +55,7 @@ const HomeOffers = () => {
                   </a>
                 </div>
                 <div>
-                  <a href="https://amazon-tom.netlify.app/">
+                  <a href=" ">
                     <div>
                       <img src={require("../../../assets/box121.jpg")} alt="" />
                     </div>
@@ -67,7 +67,7 @@ const HomeOffers = () => {
               </div>
               <div>
                 <div>
-                  <a href="https://amazon-tom.netlify.app/">
+                  <a href=" ">
                     <div>
                       <img src={require("../../../assets/box121.jpg")} alt="" />
                     </div>
@@ -77,7 +77,7 @@ const HomeOffers = () => {
                   </a>
                 </div>
                 <div>
-                  <a href="https://amazon-tom.netlify.app/">
+                  <a href=" ">
                     <div>
                       <img src={require("../../../assets/box121.jpg")} alt="" />
                     </div>
@@ -87,7 +87,7 @@ const HomeOffers = () => {
                   </a>
                 </div>
               </div>
-              <a className="seeOffer" href="https://amazon-tom.netlify.app/">
+              <a className="seeOffer" href=" ">
                 See all offers
               </a>
             </div>
@@ -97,13 +97,13 @@ const HomeOffers = () => {
             <div>
               <h2>Great Freedom sale</h2>
               <div>
-                <a href="https://amazon-tom.netlify.app/">
+                <a href=" ">
                   <div>
                     <img src='https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Jupiter24/Phase3/J24_GW_PC_CC_SAD_1x._SY304_CB545060597_.jpg' alt="" />
                   </div>
                 </a>
               </div>
-              <a className="seeOffer" href="https://amazon-tom.netlify.app/">
+              <a className="seeOffer" href=" ">
                 See all
               </a>
             </div>
@@ -117,7 +117,7 @@ const HomeOffers = () => {
               </div>
               <hr className="hr_color" />
               <div>
-                <a href="https://amazon-tom.netlify.app/">
+                <a href=" ">
                   <div>
                     <img src={require("../../../assets/box141.jpg")} alt="" />
                   </div>
@@ -137,7 +137,7 @@ const HomeOffers = () => {
                 <h2>{item.itemTitle}</h2>
                 <div>
                   <div>
-                    <a href="https://amazon-tom.netlify.app/">
+                    <a href=" ">
                       <div>
                         <img src={item.imgs[0].url} alt="" />
                       </div>
@@ -147,7 +147,7 @@ const HomeOffers = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://amazon-tom.netlify.app/">
+                    <a href=" ">
                       <div>
                         <img src={item.imgs[1].url} alt="" />
                       </div>
@@ -159,7 +159,7 @@ const HomeOffers = () => {
                 </div>
                 <div>
                   <div>
-                    <a href="https://amazon-tom.netlify.app/">
+                    <a href=" ">
                       <div>
                         <img src={item.imgs[2].url} alt="" />
                       </div>
@@ -169,7 +169,7 @@ const HomeOffers = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://amazon-tom.netlify.app/">
+                    <a href=" ">
                       <div>
                         <img src={item.imgs[3].url} alt="" />
                       </div>
@@ -179,7 +179,7 @@ const HomeOffers = () => {
                     </a>
                   </div>
                 </div>
-                <a className="seeOffer" href="https://amazon-tom.netlify.app/">
+                <a className="seeOffer" href=" ">
                   See all offers
                 </a>
               </div>
