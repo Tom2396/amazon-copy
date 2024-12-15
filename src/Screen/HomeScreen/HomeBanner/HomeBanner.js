@@ -37,7 +37,7 @@ const HomeBanner = () => {
         <div className="blur_img"></div>
       </div>
       <HomeOffers />
-
+      
 
     </div>
   )

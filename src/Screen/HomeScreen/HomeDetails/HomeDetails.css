@@ -1,0 +1,160 @@
+
+.box2 {
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px 10px 10px;
+}
+
+.box2 > div > div:first-child {
+    height: 40px;
+    padding: 20px 20px 0px 10px;
+}
+
+@media (max-width: 768px) {
+    .box2 > div > div:first-child {
+        height: 50px;
+        padding: 10px 20px 10px 10px;
+    }
+
+    .box2 > div > div:first-child h2 {
+        font-size: 1.3rem;
+        line-height: -10px;
+        line-height-step: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .box2 > div > div:first-child {
+        height: 50px;
+        padding: 10px 20px 10px 10px;
+    }
+
+    .box2 > div > div:first-child h2 {
+        font-size: 1.2rem;
+        line-height: -10px;
+        line-height-step: 10px;
+    }
+}
+
+.box2 h2 {
+    font-size: 21px;
+    display: inline;
+    line-height: 1em;
+    margin: 0;
+}
+
+.box2 div span {
+    padding-left: 20px;
+    color: #007185;
+}
+
+.minimum_50 {
+    height: 260px;
+}
+
+.minimum_50 > div > div:last-child {
+    width: 100%;
+    display: flex;
+    height: 190px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.minimum_50 > div > div:last-child > div {
+    background-color: white;
+
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    border-radius: 50px;
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar-button {
+    display: none;
+}
+
+.minimum_50 > div > div:last-child::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 183, 183);
+    border-radius: 50px;
+}
+
+.minimum_50 a img {
+    height: 170px;
+    margin: 0 10px 10px 10px;
+}
+
+@media (max-width: 768px) {
+    .amazon_live > div > div:last-child > div:first-child > video {
+        width: 240px;
+    }
+    .mini_slide-live #slideButton-l{
+        display: none;
+    }
+}
+
+.left_img_button {
+    left: 10px;
+}
+
+.right_img_button {
+    right: 10px;
+}
+
+
+#slideButton-s, #slideButton-b , #slideButton-l {
+    cursor: pointer;
+    position: sticky;
+    background-color:transparent;
+    color: black;
+    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.594); */
+    height: 5vw;
+    width: 3vw;
+    height: 2rem;
+    width: 1rem;
+    border-radius: 3px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    /* bottom: 2rem; */
+    font-size: 1.75rem;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .main .blur_img {
+        top: 21vw;
+        box-shadow: 0px -10px 20px 15px rgb(239, 239, 239);
+    }
+
+    #slideButton i, #slideButton-s i, #slideButton-b i{
+        /* font-size: 15px; */
+        font-size: .95rem;
+    }
+    #slideButton-s, #slideButton-b{
+        padding: 2px 8px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .main .blur_img {
+        top: 26vw;
+        box-shadow: 0px -10px 20px 15px rgb(239, 239, 239);
+    }
+
+    #slideButton i, #slideButton-s i, #slideButton-b i{
+        font-size: .75rem;
+    }
+    #slideButton-s, #slideButton-b{
+        padding: 1px 7px;
+    }
+}

@@ -182,8 +182,10 @@ const HomeOffers = () => {
                 <a className="seeOffer" href=" ">
                   See all offers
                 </a>
+              
               </div>
               <br />
+             
              </div>)
           })
 
